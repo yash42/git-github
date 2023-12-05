@@ -16,6 +16,6 @@ Here the 'origin' can be either HTTPS or SSH
 9. Run **git remote -v**. *This does some git pull and git push magic, to ensure that the contents of your new Github repository, and the folder on you local system are the same.*
 10. Run **git push origin master**. *Note that the last word in the command master, is not a fixed entry when running git push. It can be replaced with any relevant “branch_name”.*
 ---------------------------------------------------
------Useful codes----
--create a .gitignore file to exclude files
+### Useful codes
+- create a .gitignore file to exclude files
 --------------------------
