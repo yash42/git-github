@@ -11,7 +11,11 @@ Example Empty Repo
 5. Create a new repo in Github and copy the repo link of HTTPS or SSH
 6. Run **git remote add origin https://github.com/username/example.git or git@github.com:username/example.git** in the terminal. *Here, username and example will be replaced by the values provided in the copied link. This will push the existing folder on you local computer system, to the newly created Github repository.*
 Here the 'origin' can be either HTTPS or SSH
-7. Run **ssh-keygen -t rsa -b 4096 -C "email_ID_of_GITHUB"** and "**save in default location**". Default location:
+7. Paste the text below, replacing the email used in the example with your GitHub email address.
+   > **ssh-keygen -t ed25519 -C "your_email@example.com"**
+   If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
+   >  **ssh-keygen -t rsa -b 4096 -C "email_ID_of_GITHUB"**
+    and "**save in default location**". Default location:
    - In windows "C:\Users\PC-Name\.ssh". *It is done for the first time to configure SSH connection*
    - In Ubuntu "
 9. If you performed **step7**, then copy the Public Key saved in **.\\.ssh\\*.pub** file and save it in your **SSH and GPG key** section of Github account.
