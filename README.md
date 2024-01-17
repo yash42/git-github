@@ -22,7 +22,8 @@ Here the 'origin' can be either HTTPS or SSH
     -----------------
     **To connect multiple account with multiple ssh key** </br>
    - If you are using OpenSSH for Windows 10 with PowerShell, you can create the config file yourself by running the following command in PowerShell: </br>
-   > New-Item -Path $HOME\\.ssh\\config -ItemType File *Open powershell in default ssh location and type the code*
+   > ***Open powershell in default ssh location and type the code*** </br>
+   > New-Item -Path $HOME\\.ssh\\config -ItemType File 
    - Open config file and write down the following code:
     > Host github.com </br>
     >> HostName github.com </br>
