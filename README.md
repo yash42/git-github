@@ -17,7 +17,7 @@ Here the 'origin' can be either HTTPS or SSH
    >  **ssh-keygen -t rsa -b 4096 -C "email_ID_of_GITHUB"** </br>
     and "**save in default location**".
    - Default location:
-    >   - In windows "C:\Users\userprofile\.ssh\". *It is done for the first time to configure SSH connection* </br>
+    >   - In windows "C:\Users\**userprofile**\\.ssh\". *It is done for the first time to configure SSH connection* </br>
     >  - In Ubuntu ""
     -----------------
     **To connect multiple account with multiple ssh key** </br>
