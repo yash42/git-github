@@ -38,5 +38,5 @@ Here the 'origin' can be either HTTPS or SSH
 ### Useful codes
 - create a .gitignore file to exclude files
 - Change default branch from <b>master</b> to <b>main</b>
-    >> git config --system init.defaultbranch <i>main</i>
+    > git config --system init.defaultbranch <i>main</i>
 --------------------------
