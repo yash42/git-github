@@ -3,7 +3,7 @@ How to push Existing Code to a new Github repository
 
 Example Empty Repo
 1. Run **"git init"** in the terminal. *(This will initialize the folder/repository that you have on your local computer system.)*
-2. Run **git add .** in the terminal. *(This will track any changes made to the folder on your system, since the last commit. As this is the first time you are committing the contents of the folder, it will add everything.*
+2. Run **git add -A** in the terminal. *(This will track any changes made to the folder on your system, since the last commit. As this is the first time you are committing the contents of the folder, it will add everything.*
 3. For the first time, configure user email
     > **git config user.email "Email used in Github"** </br>
     > **git config user.name "Username used in Github"**
@@ -37,4 +37,6 @@ Here the 'origin' can be either HTTPS or SSH
 ---------------------------------------------------
 ### Useful codes
 - create a .gitignore file to exclude files
+- Change default branch from <b>master</b> to <b>main</b>
+    >> git config --system init.defaultbranch <i>main</i>
 --------------------------
